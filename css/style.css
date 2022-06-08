@@ -1,0 +1,159 @@
+/* common */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.container {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity .3s;
+}
+
+a:hover {
+  opacity: 5;
+}
+
+small {
+  font-size: 16px;
+}
+
+span {
+  color:red;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  height: 190px;
+  border-bottom: 1px solid black;
+}
+
+header .container {
+  justify-content: space-between;
+}
+
+header .container h1 {
+  height: 100px;
+}
+
+header ul {
+  display: flex;
+}
+
+header li a {
+  font-size: 16px;
+  margin: 0 16px;
+  color: black;
+}
+
+/* hero */
+
+.hero img {
+ width: 100%;
+ margin-top: 16px;
+ margin-bottom: 16px;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 190px;
+  border-top: 1px solid black;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li + li {
+  margin-left: 16px;
+}
+
+/* about.html */
+
+/* main */
+
+section h1 {
+  padding: 40px;
+  text-align: center;
+}
+
+.kaisha {
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.kaisha th,
+.kaisha td {
+  border: 1px solid #ccc;
+  padding: 24px;
+}
+
+.kaisha th {
+  font-weight: bold;
+}
+
+/* contact.html */
+
+/* section */
+
+section {
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+
+section span {
+  font-size: 32px;
+}
+
+form {
+  padding-top: 8px
+}
+
+form p {
+  font-size: 16px;
+}
+
+form .container li + li  {
+  border-top: 1px solid #000;
+}
+
+form .container li + p + li {
+  border-top: 1px solid #000;
+}
+
+/* blog.html */
+
+main {
+  width: 100%;
+  height: 1000px;
+  padding-top: 8px;
+}
+
+main h1 {
+  text-align: center;
+}

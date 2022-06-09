@@ -9,6 +9,7 @@ body {
 
 h1 {
   margin: 0;
+  font-size: 32px;
 }
 
 img {
@@ -79,18 +80,30 @@ header li a {
 /* footer */
 
 footer {
-  width: 100%;
-  height: 190px;
   border-top: 1px solid black;
 }
 
 footer ul {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  padding: 0;
 }
 
-footer ul li + li {
+footer ul li {
+  margin-left: 24px;
+}
+
+footer ul li + li + li {
   margin-left: 16px;
+  position: relative;
+  top: 70px;
+  right: 120px;
+}
+
+footer small {
+  position: relative;
+  left: 100px;
+  bottom: 50px;
 }
 
 /* about.html */

@@ -2,12 +2,8 @@
 
 @media screen and (min-width: 320px) and (max-width: 540px) {
   header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  header img {
-    width: 200px;
+    position: fixed;
+    top: 0;
   }
 
   nav ul {
@@ -23,7 +19,7 @@
   }
 
   .container h1 {
-    font-size: 32px;
+    font-size: 48px;
   }
 }
 

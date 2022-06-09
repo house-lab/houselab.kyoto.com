@@ -1,22 +1,14 @@
 /* 380px */
 
-@media (max-width: 380px) {
+@media screen and (min-width: 320px) and (max-width: 540px) {
   header {
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-
-  header img {
-    width: 50px;
-    border-radius: 100px;
   }
 
   nav ul {
-    margin: 0;
     padding: 0;
+    padding-right: 16px;
     display: flex;
   }
 
@@ -27,14 +19,17 @@
   }
 
   .container h1 {
-    font-size: 16px;
+    font-size: 8px;
   }
 }
 
-@media (max-width: 414px) {
+/* 414pxの場合に適用 */
+
+@media (max-width: 414) {
   header img {
     width: 400px;
    }
+
   .container {
    width: calc(100% - 8px);
    margin-left: 0 8px;
@@ -42,10 +37,6 @@
    max-width: 600px;
  }
 }
-
-
-
-/* 414pxの場合に適用 */
 
 @media (min-width: 414px) {
   header img {
@@ -102,6 +93,7 @@ header ul {
 }
 
 /* max-width 670pxの場合 */
+
 @media (max-width: 670px) {
   header img {
     width: 400px;
@@ -137,7 +129,7 @@ header ul {
 }
 /* 980pxの場合に適用 */
 
-@media (min-width: 980px) {
+@media (min-width: 924px) {
   container {
     width: calc(100% - 16px / 2);
   }

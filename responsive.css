@@ -46,6 +46,7 @@
   header img {
    width: 400px;
   }
+
  .container {
   width: calc(100% - 8px);
   margin-left: 0 8px;

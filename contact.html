@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
   <title>お問い合わせ</title>
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -15,9 +16,12 @@
       <a href="index.html">
         <h1>
           <img src="img/img.jpg"
-           alt="ハウスラボのロゴ">
-          </h1>
+           alt="ハウスラボのロゴです">
+        </h1>
       </a>
+    </div>
+
+    <div class="pc-menu">
       <nav>
         <ul>
           <li><a href="index.html">ホーム</a></li>
@@ -27,33 +31,48 @@
         </ul>
       </nav>
     </div>
+  
+    <div class="sp-menu">
+      <span class ="material-icons" id="open">menu</span>
+    </div>
   </header>
+
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <nav>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="about.html">企業概要</a></li>
+        <li><a href="blog.html">ブログ</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
 
   <section>
     <h3>お電話でのお問い合わせ<br>
      お急ぎの方は、お電話にてお問い合わせくださいませ。</h3>
      <time>定休日：年中無休 受付時間： 10:00~17:00</time><br>
     <a href="tel:075-277-6697"><span>075-277-6697</span></a>
- </section>
+  </section>
 
- <form>
-  <div class="container">
-    <p>メールでの問い合わせ</p>
-    <p>下記よりメールにてお名前ご連絡先ご入力の上お問い合わせください</p>
-    <ul>
-      <li>
-        <a href="mailto:houselab.kyoto@gmail.com">
+  <form>
+    <div class="container">
+      <p>メールで問い合わせ</p>
+      <p>下記よりメールにてお名前ご連絡先ご入力の上お問い合わせください</p>
+      <ul>
+        <li>
+          <a href="mailto:houselab.kyoto@gmail.com">
           <img src="img/envelope-solid.svg" 
           alt="メール"
           width="120"
           height="120">
-        </a>
-      </li>
-      <li>
+          </a>
+        </li>
+        <li>
         <p>インスタでのお問い合わせ</p>
         <p>下記よりDMにてお問い合わせください</p>
-        <a href="https://www.instagram.com/house.labb"
-          target="_blank">
+          <a href="https://www.instagram.com/house.labb"target="_blank">
           <img src="img/instagram-brands.svg"
             alt="インスタグラム"
             width="120"
@@ -61,22 +80,22 @@
           </a>
         </li>
         <p>[公式instagramアカウント]</p>
-      <li>
+        <li>
         <p>LINEでのお問い合わせ</p>
         <p>下記よりお問い合わせください</p>
-        <a href="https://lin.ee/etioPtu" target="_blank">
-          <img src="img/line-brands.svg" 
-          alt="LINE 友達追加"
-          width="120"
-          height="120">
-        </a>
+          <a href="https://lin.ee/etioPtu" target="_blank">
+            <img src="img/line-brands.svg" 
+            alt="LINE 友達追加"
+            width="120"
+            height="120">
+          </a>
         <p>[公式LINEアカウント]</p>
-      </li>
-    </ul>
-  </div>
-</form>
+        </li>
+      </ul>
+    </div>
+  </form>
 
-<footer>
+  <footer>
   <div class="container">
     <ul>
       <li>
@@ -118,5 +137,7 @@
       <small>houselab.kyoto@gmail.com</small>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

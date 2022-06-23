@@ -2,9 +2,9 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HOUSE LAB</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="responsive.css">
@@ -19,6 +19,9 @@
            alt="ハウスラボのロゴです">
         </h1>
       </a>
+    </div>
+
+    <div class="pc-menu">
       <nav>
         <ul>
           <li><a href="index.html">ホーム</a></li>
@@ -28,7 +31,23 @@
         </ul>
       </nav>
     </div>
+  
+    <div class="sp-menu">
+      <span class ="material-icons" id="open">menu</span>
+    </div>
   </header>
+
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <nav>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="about.html">企業概要</a></li>
+        <li><a href="blog.html">ブログ</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
 
   <section class="hero">
     <div class="container">
@@ -39,7 +58,7 @@
     </div>
   </section>
 
-  <div class="container">
+  <div class="main">
     <h1>リフォームで生活に彩りを</h1>
   </div>
 
@@ -94,5 +113,7 @@
       <small>houselab.kyoto@gmail.com</small>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
